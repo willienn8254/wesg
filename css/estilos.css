@@ -1,0 +1,184 @@
+* { box-sizing: border-box; }
+
+html,body{
+
+	padding: 0;
+	margin: 0;
+}
+
+
+body
+	{
+		background-color: #181818 ; /* El background del body en negro para combiar con fondo*/
+		font-family: 'Josefin Sans', sans-serif;
+		
+	}
+
+
+header
+
+	{
+
+		position: fixed;
+		background-color:rgba(64, 224, 208, 0.6);
+		width: 100%; /* lo coloque asi, para que cubra toda la pagina*/
+		padding: 30px 0 30px  0; /*Distancia de su contenido a los bordes del header*/
+	
+	}
+
+header nav
+	{
+		float:right; /*posiciono el nav hacia la izquierda*/
+		padding-right:40px; /*distancia de 40px de el relleno de los nav hacia la izquierda*/
+
+	}
+
+	
+
+header nav a 
+	{
+
+		color:white;
+		font-size: 14px;
+		font-weight: bold;
+		text-decoration: none;
+		padding: 10px;
+		border-right: solid;
+		border-radius: 3px;
+
+
+	}
+
+	a
+
+	{
+		text-decoration: none;
+
+	}
+
+
+header nav a:hover
+	{
+		background: #181818;
+		border-radius: 3px;
+		color:white;
+	}
+
+
+
+footer
+	{
+		background-color:rgba(64, 224, 208, 0.6);
+		
+	}
+
+
+	p 
+	{
+		color:white;
+		font-size: 30px;
+		text-align: center;
+	}
+
+
+	
+
+#wesg
+{
+
+	background: url("../img/background.png");
+	background-size: cover;
+	color:white;
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 80px;
+	margin-bottom: 0px;
+
+
+}
+.parrafos{
+
+	padding: 80px 0 80px 0;
+
+
+}
+
+
+
+
+.imagenn
+{
+	
+	text-align: center;
+
+
+}
+
+.imagenn>img
+{
+	
+	width: 25%;
+
+
+
+}
+
+
+.portada
+
+{
+	margin-top:120px;
+	border: 7px solid #40E0D0;
+    border-radius: 130px;
+}
+
+.titulos
+{	
+	padding: 5px;
+	color:white;
+	background-color:rgba(64, 224, 208, 0.6);
+	text-align: center;
+}
+
+@media(max-width:500px){
+
+	p {color:white;
+		font-size: 20px;
+		text-align: center;
+		}
+
+	header nav a 
+{
+	color:white;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px;
+	border:none;
+	display: block;	
+
+}
+
+
+header
+
+{
+	position: fixed;
+	background-color:rgba(64, 224, 208, 0.6);
+	width: 100%; 
+	padding: 0px 0 0px  0; 
+	
+}
+
+header nav
+{
+	float:left;
+	padding-right:0px; 
+
+}
+
+	
+
+
+}
+
